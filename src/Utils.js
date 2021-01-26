@@ -1,4 +1,3 @@
-import React from 'react';
 import moment from 'moment';
 
 export const DateFormats = {
@@ -72,3 +71,5 @@ export const getQueryStringParams = (query) => {
         }, {})
     : {};
 };
+
+export const getDictLength = (d) => Object.keys(d).length;
